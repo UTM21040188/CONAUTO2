@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo">
+                    Iniciar Sesión
+                </div>
+                <form class="login-form">
+                    <div class="log-campo">
+                        <label for="usuario">Nombre de usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+                    </div>
+                    <div class="log-campo">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+                    </div>
+
+                    <button type="submit" title="Ingresar" name="login" class="login" id="login">Login</button>
+                </form>
+                <div class="pie-form">
+                    <a name="forgotten_Pass" id="forgotten_Pass" routerLink="register">¿Perdiste tu contraseña?</a>
+                    <a name="new_Account" id="new_Account" routerLink="/register">Crear una cuenta nueva</a>
+                </div>
+            </div>
+            <div class="inf">
+                <a routerLink="">Regresar</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

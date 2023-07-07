@@ -1,0 +1,176 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*-------------------------------------------
+CAROUSEL
+-------------------------------------------*/
+.carousel-item {
+    max-height: 600px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*-------------------------------------------
+CIERRE CAROUSEL
+-------------------------------------------*/
+
+/*-------------------------------------------
+Nosotros
+-------------------------------------------*/
+.nosotros {
+    max-width: 100%;
+    color: #000000;
+    padding: 4rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+.nosotros p {
+    color: #333333;
+}
+
+/*-------------------------------------------
+CIERRE Nosotros
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Noticias
+-------------------------------------------*/
+.noticias {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(13, 102, 180);
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.cards {
+    max-width: 100%;
+}
+
+.cards__tam {
+    max-width: 100%;
+}
+
+.cards__imag {
+
+}
+
+.cards___imag--tam {
+    max-width: 22em;
+    padding: .5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) { 
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: .5rem;
+    }
+
+    .cards___imag--tam {
+        width: 25rem!important;
+        height: 14rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .cards___imag--tam {
+        width: 30rem!important;
+        min-height: auto;
+    }
+}
+
+.text {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/*  */
+
+
+/*-------------------------------------------
+Cierre Noticias
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Tabla
+-------------------------------------------*/
+h2 {
+    padding: 1rem;
+}
+
+.btn {
+    float: right;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.table {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ffee00;
+    padding: 8px;
+    text-align: center;
+}
+
+/* .table td {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.table th {
+    color: #fff;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+
+tbody {
+    font-size: 100%;
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
+}

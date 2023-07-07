@@ -1,0 +1,95 @@
+body {
+    background-color: #F0F0F0; 
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#central {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-campo {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.log-campo label {
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: #FF69B4;
+}
+
+.pie-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pie-form a {
+    color: #888888;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.pie-form a:hover, .inf a:hover {
+    color: #FF69B4;
+}
+
+.inf {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inf a {
+    color: #888888;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    #central {
+        width: 100%;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,60 @@
+.colorbarra {
+    text-align: center;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.btn {
+    float: right;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.table {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ffee00;
+    padding: 8px;
+    text-align: center;
+}
+
+/* .table td {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.table th {
+    color: #fff;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+
+tbody {
+    font-size: 100%;
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
+}

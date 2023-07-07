@@ -1,0 +1,50 @@
+<div id="contenedor">
+    <div id="central">
+        <div id="login">
+            <div class="titulo">
+                Registrar un cliente
+            </div>
+            <form class="registrar-form">
+                <div class="campo">
+                    <label for="r-nombre">Nombre</label>
+                    <input type="text" name="r-nombre" id="r-nombre" placeholder="Nombre" required >
+                </div>
+                <div class="campo">
+                    <label for="r-user">Usuario</label>
+                    <input type="text" name="r-user" id="r-user" placeholder="Usuario" required >
+                </div>
+                <div class="campo">
+                    <label for="r-sexo">Sexo</label> <br>
+                    <select class="custom-select" name="r-sexo" id="r-sexo">
+                        <option selected disabled>Selecciona una opción...</option>
+                        <option value="">Masculino</option>
+                        <option value="">Femenino</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="r-edad">Fecha de Nacimiento</label>
+                    <input type="date" name="r-edad" id="r-edad" placeholder="Edad" required >
+                </div>
+                <div class="campo">
+                    <label for="r-email">E-mail</label>
+                    <input type="email" name="r-email" id="r-email" placeholder="E-mail" required >
+                </div>
+                <div class="campo">
+                    <label for="r-telefono">Teléfono</label>
+                    <input type="number" name="r-telefono" id="r-telefono" placeholder="Telefono" required >
+                </div>
+                <div class="campo">
+                    <label for="r-password">Contraseña</label>
+                    <input type="password" name="r-password" id="r-password" placeholder="Contraseña" required >
+                </div>
+                <div class="campo">
+                    <button type="submit" title="r-registrar" class="register" name="r-registrar" id="r-registrar" routerLink="/direcciones">Registrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="inf">
+            <a href="index.html">Regresar</a>
+        </div>
+    </div>
+</div>
+
